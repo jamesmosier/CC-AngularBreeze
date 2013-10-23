@@ -1,0 +1,17 @@
+C:\Git\CC-AngularBreeze\CC.Web\CC.DataAccess\bin\Debug\Breeze.WebApi.dll
+C:\Git\CC-AngularBreeze\CC.Web\CC.DataAccess\bin\Debug\Breeze.WebApi.EF.dll
+C:\Git\CC-AngularBreeze\CC.Web\CC.DataAccess\bin\Debug\CC.DataAccess.dll
+C:\Git\CC-AngularBreeze\CC.Web\CC.DataAccess\bin\Debug\CC.DataAccess.pdb
+C:\Git\CC-AngularBreeze\CC.Web\CC.DataAccess\bin\Debug\CC.Model.dll
+C:\Git\CC-AngularBreeze\CC.Web\CC.DataAccess\bin\Debug\EntityFramework.dll
+C:\Git\CC-AngularBreeze\CC.Web\CC.DataAccess\bin\Debug\Newtonsoft.Json.dll
+C:\Git\CC-AngularBreeze\CC.Web\CC.DataAccess\bin\Debug\System.Web.Http.dll
+C:\Git\CC-AngularBreeze\CC.Web\CC.DataAccess\bin\Debug\System.Net.Http.Formatting.dll
+C:\Git\CC-AngularBreeze\CC.Web\CC.DataAccess\bin\Debug\CC.Model.pdb
+C:\Git\CC-AngularBreeze\CC.Web\CC.DataAccess\bin\Debug\EntityFramework.xml
+C:\Git\CC-AngularBreeze\CC.Web\CC.DataAccess\bin\Debug\Newtonsoft.Json.xml
+C:\Git\CC-AngularBreeze\CC.Web\CC.DataAccess\bin\Debug\System.Web.Http.xml
+C:\Git\CC-AngularBreeze\CC.Web\CC.DataAccess\bin\Debug\System.Net.Http.Formatting.xml
+C:\Git\CC-AngularBreeze\CC.Web\CC.DataAccess\obj\Debug\CC.DataAccess.csprojResolveAssemblyReference.cache
+C:\Git\CC-AngularBreeze\CC.Web\CC.DataAccess\obj\Debug\CC.DataAccess.dll
+C:\Git\CC-AngularBreeze\CC.Web\CC.DataAccess\obj\Debug\CC.DataAccess.pdb
