@@ -15,3 +15,4 @@ C:\Git\CC-AngularBreeze\CC.Web\CC.DataAccess\bin\Debug\System.Net.Http.Formattin
 C:\Git\CC-AngularBreeze\CC.Web\CC.DataAccess\obj\Debug\CC.DataAccess.csprojResolveAssemblyReference.cache
 C:\Git\CC-AngularBreeze\CC.Web\CC.DataAccess\obj\Debug\CC.DataAccess.dll
 C:\Git\CC-AngularBreeze\CC.Web\CC.DataAccess\obj\Debug\CC.DataAccess.pdb
+C:\Git\CC-AngularBreeze\CC.Web\CC.DataAccess\bin\Debug\CC.DataAccess.dll.config
