@@ -16,8 +16,8 @@
     };
 
     var config = {
-        appErrorPrefix: '[CC Error] ', //Configure the exceptionHandler decorator
-        docTitle: 'CC: ',
+        appErrorPrefix: '[HT Error] ', //Configure the exceptionHandler decorator
+        docTitle: 'HotTowel: ',
         events: events,
         remoteServiceName: remoteServiceName,
         version: '2.0.0'

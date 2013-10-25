@@ -18,6 +18,5 @@ AngularJS.Route contains the Angular Route module</summary>
     <dependencies>
       <dependency id="AngularJS.Core" version="1.2.0-rc2" />
     </dependencies>
-    <references />
   </metadata>
 </package>

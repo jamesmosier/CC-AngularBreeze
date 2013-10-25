@@ -39,17 +39,6 @@
                         content: '<i class="icon-lock"></i> Admin'
                     }
                 }
-            },
-            {
-                url: '/sessions',
-                config: {
-                    title: 'sessions',
-                    templateUrl: 'app/session/sessions.html',
-                    settings: {
-                        nav: 3,
-                        content: '<i class="icon-calendar"></i> Sessions'
-                    }
-                }
             }
         ];
     }

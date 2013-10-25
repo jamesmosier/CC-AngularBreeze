@@ -27,7 +27,7 @@ namespace CC.DataAccess
 
         public IQueryable<Session> Sessions
         {
-            get { return Context.Sessions; }
+            get { return Context.Sessions.AsQueryable(); }
         }
 
         public IQueryable<Person> Speakers

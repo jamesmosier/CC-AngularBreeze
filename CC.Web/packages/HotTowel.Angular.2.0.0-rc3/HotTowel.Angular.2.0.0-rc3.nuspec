@@ -35,6 +35,5 @@ Hot Towel: Because you don't want to go to the SPA without one!
       <dependency id="AngularJS.Animate" version="1.2.0-rc3" />
       <dependency id="AngularJS.Sanitize" version="1.2.0-rc3" />
     </dependencies>
-    <references />
   </metadata>
 </package>

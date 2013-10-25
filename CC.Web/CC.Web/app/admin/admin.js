@@ -1,6 +1,5 @@
 ﻿(function () {
     'use strict';
-    //controllerID is called on the view (admin.html) and has to be the same name
     var controllerId = 'admin';
     angular.module('app').controller(controllerId, ['common', admin]);
 

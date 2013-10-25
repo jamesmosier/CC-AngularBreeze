@@ -16,7 +16,8 @@ namespace CC.Web.Controllers
         [HttpGet]
         public string Metadata()
         {
-            return _repository.Metadata;
+            var qqq = _repository.Metadata;
+            return qqq;
         }
 
         [HttpPost]
@@ -28,7 +29,9 @@ namespace CC.Web.Controllers
         [HttpGet]
         public IQueryable<Session> Sessions()
         {
-            return _repository.Sessions;
+            var asdf = _repository.Sessions;
+            var test = asdf.ToList();
+            return asdf;
         }
 
         [HttpGet]

@@ -15,6 +15,5 @@
 			- Added ability to set month or weekday from a string.
 			- Added moment#min and moment#max</releaseNotes>
     <tags>JavaScript date time browser node.js</tags>
-    <references />
   </metadata>
 </package>
