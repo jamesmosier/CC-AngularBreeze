@@ -5,7 +5,7 @@ using CC.Model;
 
 namespace CC.DataAccess
 {
-    public class CodeCamperDbContext : DbContext 
+    public class CodeCamperDbContext : DbContext
     {
         public CodeCamperDbContext()
             : base(nameOrConnectionString: "CodeCamper") { }

@@ -15,6 +15,5 @@
 AngularJS.Core contains the core Angular files and the angular.mocks for unit testing.</summary>
     <language>en-US</language>
     <tags>angular angularjs</tags>
-    <references />
   </metadata>
 </package>

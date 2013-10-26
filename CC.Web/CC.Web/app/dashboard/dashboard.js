@@ -17,13 +17,13 @@
         vm.title = 'Dashboard';
 
         activate();
-        //this makes sure everything is loaded before the user can interact with it. Specific to HotTowel
+
         function activate() {
             var promises = [getMessageCount(), getPeople()];
             common.activateController(promises, controllerId)
                 .then(function () { log('Activated Dashboard View'); });
         }
-        //get "data" and return data when done
+
         function getMessageCount() {
             return datacontext.getMessageCount().then(function (data) {
                 return vm.messageCount = data;
