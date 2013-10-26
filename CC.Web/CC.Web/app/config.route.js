@@ -5,7 +5,7 @@
 
     // Collect the routes
     app.constant('routes', getRoutes());
-    
+
     // Configure the routes and route resolvers
     app.config(['$routeProvider', 'routes', routeConfigurator]);
     function routeConfigurator($routeProvider, routes) {
@@ -37,6 +37,17 @@
                     settings: {
                         nav: 2,
                         content: '<i class="icon-lock"></i> Admin'
+                    }
+                }
+            },
+            {
+                url: '/sessions',
+                config: {
+                    title: 'sessions',
+                    templateUrl: 'app/session/sessions.html',
+                    settings: {
+                        nav: 3,
+                        content: '<i class="icon-calendar"></i> Sessions'
                     }
                 }
             }
