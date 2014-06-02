@@ -75,3 +75,4 @@ C:\Git\CC-AngularBreeze\CC.Web\CC.Web\bin\zh-Hant\System.Spatial.resources.dll
 C:\Git\CC-AngularBreeze\CC.Web\CC.Web\obj\Debug\CC.Web.csprojResolveAssemblyReference.cache
 C:\Git\CC-AngularBreeze\CC.Web\CC.Web\obj\Debug\CC.Web.dll
 C:\Git\CC-AngularBreeze\CC.Web\CC.Web\obj\Debug\CC.Web.pdb
+C:\Git\CC-AngularBreeze\CC.Web\CC.Web\bin\CC.Web.dll.config
