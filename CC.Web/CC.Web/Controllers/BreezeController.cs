@@ -30,7 +30,7 @@ namespace CC.Web.Controllers
         public IQueryable<Session> Sessions()
         {
             var asdf = _repository.Sessions;
-            var test = asdf.ToList();
+            //var test = asdf.ToList();
             return asdf;
         }
 

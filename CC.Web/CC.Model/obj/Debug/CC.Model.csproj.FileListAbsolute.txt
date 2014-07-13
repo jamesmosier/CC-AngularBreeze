@@ -5,3 +5,10 @@ C:\Git\CC-AngularBreeze\CC.Web\CC.Model\bin\Debug\Newtonsoft.Json.xml
 C:\Git\CC-AngularBreeze\CC.Web\CC.Model\obj\Debug\CC.Model.csprojResolveAssemblyReference.cache
 C:\Git\CC-AngularBreeze\CC.Web\CC.Model\obj\Debug\CC.Model.dll
 C:\Git\CC-AngularBreeze\CC.Web\CC.Model\obj\Debug\CC.Model.pdb
+C:\Users\Admin\Documents\GitHub\CC-AngularBreeze\CC.Web\CC.Model\bin\Debug\CC.Model.dll
+C:\Users\Admin\Documents\GitHub\CC-AngularBreeze\CC.Web\CC.Model\bin\Debug\CC.Model.pdb
+C:\Users\Admin\Documents\GitHub\CC-AngularBreeze\CC.Web\CC.Model\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Admin\Documents\GitHub\CC-AngularBreeze\CC.Web\CC.Model\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Admin\Documents\GitHub\CC-AngularBreeze\CC.Web\CC.Model\obj\Debug\CC.Model.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Documents\GitHub\CC-AngularBreeze\CC.Web\CC.Model\obj\Debug\CC.Model.dll
+C:\Users\Admin\Documents\GitHub\CC-AngularBreeze\CC.Web\CC.Model\obj\Debug\CC.Model.pdb
