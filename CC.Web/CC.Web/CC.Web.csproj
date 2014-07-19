@@ -113,8 +113,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="app\admin\admin.html" />
-    <Content Include="app\admin\admin.js" />
     <Content Include="app\app.js" />
     <Content Include="app\common\bootstrap\bootstrap.dialog.js" />
     <Content Include="app\common\common.js" />
@@ -137,6 +135,8 @@
     <Content Include="app\services\model.js" />
     <Content Include="app\session\sessions.html" />
     <Content Include="app\session\sessions.js" />
+    <Content Include="app\speaker\speakers.html" />
+    <Content Include="app\speaker\speakers.js" />
     <Content Include="App_Data\.gitignore" />
     <Content Include="App_Data\CodeCamper.sdf" />
     <Content Include="ccfavicon.ico" />

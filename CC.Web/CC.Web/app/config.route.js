@@ -29,16 +29,6 @@
                         content: '<i class="icon-dashboard"></i> Dashboard'
                     }
                 }
-            }, {
-                url: '/admin',
-                config: {
-                    title: 'admin',
-                    templateUrl: 'app/admin/admin.html',
-                    settings: {
-                        nav: 2,
-                        content: '<i class="icon-lock"></i> Admin'
-                    }
-                }
             },
             {
                 url: '/sessions',
@@ -46,8 +36,19 @@
                     title: 'sessions',
                     templateUrl: 'app/session/sessions.html',
                     settings: {
-                        nav: 3,
+                        nav: 2,
                         content: '<i class="icon-calendar"></i> Sessions'
+                    }
+                }
+            },
+            {
+                url: '/speakers',
+                config: {
+                    title: 'speakers',
+                    templateUrl: 'app/speaker/speakers.html',
+                    settings: {
+                        nav: 3,
+                        content: '<i class="icon-user"></i> Speakers'
                     }
                 }
             }
