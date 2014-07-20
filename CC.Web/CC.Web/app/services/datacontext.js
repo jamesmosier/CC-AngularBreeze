@@ -16,16 +16,25 @@
         var primePromise;
         var $q = common.$q;
 
+        var storeMeta = {
+            isLoaded: {
+                sessions: false,
+                attendees: false
+            }
+        };
+
         var entityNames = {
             attendee: 'Person',
             person: 'Person',
             speaker: 'Person',
+            session: 'Session',
             room: 'Room',
             track: 'Track',
             timeslot: 'TimeSlot'
         };
 
         var service = {
+            getAttendees: getAttendees,
             getPeople: getPeople,
             getMessageCount: getMessageCount,
             getSessionPartials: getSessionPartials,
@@ -50,6 +59,24 @@
             return $q.when(people);
         }
 
+        function getAttendees() {
+            var orderBy = 'firstName, lastName';
+            var attendees = [];
+
+            return EntityQuery.from('Persons')
+            .select('id, firstName, lastName, imageSource')
+            .orderBy(orderBy)
+            .toType('Person')
+            .using(manager).execute()
+            .to$q(querySucceeded, _queryFailed);
+
+            function querySucceeded(data) {
+                attendees = data.results;
+                log('Retrieved [Attendees Partials] from remote data source', attendees.length, true);
+                return attendees;
+            }
+        }
+
         function getSpeakerPartials() {
             var speakerOrderBy = 'firstName, lastName';
             var speakers = [];
@@ -68,9 +95,16 @@
             }
         }
 
-        function getSessionPartials() {
+        function getSessionPartials(forceRemote) {
             var orderBy = 'timeSlotId, level, speaker.firstName';
             var sessions;
+
+            //if sessions are loaded then get them locally (force remote is a refresh button)
+            if (_areSessionsLoaded() && !forceRemote) {
+                //get local data
+                sessions = _getAllLocal(entityNames.session, orderBy);
+                return $q.when(sessions);
+            }
 
             return EntityQuery.from('Sessions')
             .select('id, title, code, speakerId, trackId, timeSlotId, roomId, level, tags')
@@ -81,6 +115,7 @@
 
             function querySucceeded(data) {
                 sessions = data.results;
+                _areSessionsLoaded(true);   
                 //JDM - this logs info about the call (it is set above in this file)
                 log('Retrieved [Session Partials] from remote data source', sessions.length, true);
                 return sessions;
@@ -152,6 +187,21 @@
             var msg = config.appErrorPrefix + 'Error retreiving data.' + error.message;
             logError(msg, error);
             throw error;
+        }
+
+        function _areSessionsLoaded(value) {
+            return _areItemsLoaded('sessions', value);
+        }
+
+        function _areAttendeesLoaded(value) {
+            return _areItemsLoaded('attendees', value);
+        }
+
+        function _areItemsLoaded(key, value) {
+            if (value === undefined) {
+                return storeMeta.isLoaded[key];//get
+            }
+            return storeMeta.isLoaded[key] = value;//set
         }
     }
 })();
